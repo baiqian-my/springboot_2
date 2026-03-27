@@ -1,0 +1,10 @@
+
+spring:
+  application:
+#    name: springboot-week03
+  profiles:
+    active: dev
+
+  app:
+    name: demo-application
+

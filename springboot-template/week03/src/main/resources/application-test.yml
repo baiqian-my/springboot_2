@@ -1,0 +1,18 @@
+# application-prod.yml - 生产环境配置文件
+server:
+  port: 801
+  servlet:
+    context-path: /api
+
+app:
+  name: springboot-week03-test
+  version: 4.0.0
+  description: 测试环境 - 基于 springboot 3.9.11 的项目
+  author:
+    name: liuluyi
+    email: 1282608067@qq.com
+    website: https://www.company.com
+  features:
+    - 特性21
+    - 特性22
+  published: false
