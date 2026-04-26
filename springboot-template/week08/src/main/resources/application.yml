@@ -1,0 +1,18 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      timeout: 5000ms
+      database: 0
+      lettuce:
+        pool:
+          max-active: 200
+          max-wait: -1ms
+          max-idle: 10
+          min-idle: 0
+          time-between-eviction-runs: 60s
+
+server:
+  port: 8080
